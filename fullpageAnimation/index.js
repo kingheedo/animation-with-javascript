@@ -22,7 +22,7 @@
 
 new fullpage('#fullpage', {
     autoScrolling: true,
-    navigation: true,
+    navigation: false,
     onLeave: (origin,destination,direction) => {
         const section = destination.item;
         const title = section.querySelector('h1');
